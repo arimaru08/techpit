@@ -1,0 +1,29 @@
+current directory: /Users/shotaarima/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.3/ext/rbs_extension
+/Users/shotaarima/.asdf/installs/ruby/3.2.0/bin/ruby -I /Users/shotaarima/.asdf/installs/ruby/3.2.0/lib/ruby/3.2.0 extconf.rb
+/Users/shotaarima/.asdf/installs/ruby/3.2.0/bin/ruby: warning: Ruby was built without YJIT support. You may need to install rustc to build Ruby with YJIT.
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/shotaarima/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.3/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240921-83415-y0qr1q sitelibdir\=./.gem.20240921-83415-y0qr1q clean
+
+current directory: /Users/shotaarima/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.3/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240921-83415-y0qr1q sitelibdir\=./.gem.20240921-83415-y0qr1q
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/shotaarima/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.3/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240921-83415-y0qr1q sitelibdir\=./.gem.20240921-83415-y0qr1q install
+/usr/bin/install -c -m 0755 rbs_extension.bundle ./.gem.20240921-83415-y0qr1q
+
+current directory: /Users/shotaarima/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.3/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240921-83415-y0qr1q sitelibdir\=./.gem.20240921-83415-y0qr1q clean
